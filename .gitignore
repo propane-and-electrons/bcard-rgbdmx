@@ -1,0 +1,11 @@
+*.lib
+*.mod
+*.bak
+*.ps
+*.bck
+*.000
+*.brd-bak
+*.net
+*.dsn
+*.ses
+.DS_Store*
