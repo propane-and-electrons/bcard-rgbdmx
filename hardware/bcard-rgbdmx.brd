@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date 10/19/2013 5:40:18 PM
+PCBNEW-BOARD Version 2 date 10/20/2013 7:58:33 PM
 
 # Created by Pcbnew(2013-03-19 BZR 4004)-stable
 
@@ -8,10 +8,10 @@ Units mm
 LayerCount 2
 EnabledLayers 1FFF8001
 VisibleLayers 1FFF0000
-Links 0
+Links 119
 NoConn 0
 Di 44.449999 61.0108 146.772087 124.533661
-Ndraw 40
+Ndraw 44
 Ntrack 553
 Nzone 0
 BoardThickness 1.6002
@@ -22,7 +22,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11693 8268
 Title "bcard-rgbdmx :: three channel DMX controller business card"
-Date "19 oct 2013"
+Date "20 oct 2013"
 Rev "A"
 Comp "seth hardy :: propaneandelectrons.com"
 Comment1 ""
@@ -61,7 +61,7 @@ PadDrill 0.8128
 Pad2MaskClearance 0
 SolderMaskMinWidth 0
 AuxiliaryAxisOrg 0 0
-VisibleElements FFFFFBBF
+VisibleElements 7FFFFFFF
 PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 152400) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
 $EndSETUP
 
@@ -687,14 +687,14 @@ Po 2.54 0
 $EndPAD
 $EndMODULE SIL-3
 $MODULE SIL-2
-Po 73.025 113.03 0 15 5262F3E7 5262AF4D ~~
+Po 73.025 113.03 0 15 52646D2E 5262AF4D ~~
 Li SIL-2
 Cd Connecteurs 2 pins
 Kw CONN DEV
 Sc 5262AF4D
 AR /5262AD67
 Op 0 0 0
-T0 0 -2.54 1.72974 1.08712 0 0.27178 N I 21 N "JP1"
+T0 0 -2.54 1.016 1.016 0 0.1016 N I 21 N "JP1"
 T1 -4.445 0 1.016 1.016 0 0.1016 N V 21 N "TERM"
 $PAD
 Sh "1" R 1.397 1.397 0 0 0
@@ -2717,7 +2717,7 @@ Po 2.54 0
 $EndPAD
 $EndMODULE 5MMSCREWTERM
 $MODULE 5MMSCREWTERM
-Po 59.69 89.535 900 15 4E3D7344 5262B1DD ~~
+Po 59.69 89.535 900 15 52646D50 5262B1DD ~~
 Li 5MMSCREWTERM
 Cd Regulateur TO220 serie LM78xx
 Kw TR TO220
@@ -2725,7 +2725,7 @@ Sc 5262B1DD
 AR /5262AD76
 Op 0 0 0
 T0 0 -3.556 1.524 1.016 900 0.2032 N I 21 N "P7"
-T1 0 3.81 1.524 1.016 900 0.2032 N I 21 N "POWER"
+T1 5.715 0 1.016 1.016 1800 0.1016 N V 21 N "SYS"
 DS -5.08 -1.905 -5.08 -2.54 0.381 21
 DS -5.08 -2.54 5.08 -2.54 0.381 21
 DS 5.08 -2.54 5.08 -1.905 0.381 21
@@ -2806,7 +2806,7 @@ Po 6.35 0
 $EndPAD
 $EndMODULE SIL-6
 $MODULE SIL-4
-Po 144.145 89.535 900 15 5262CDD4 5267A5F9 ~~
+Po 144.145 89.535 900 15 52646D1A 5267A5F9 ~~
 Li SIL-4
 Cd Connecteur 4 pibs
 Kw CONN DEV
@@ -2814,7 +2814,7 @@ Sc 5267A5F9
 AR /5262ADA2
 Op 0 0 0
 T0 6.35 0 1.016 1.016 1800 0.1016 N I 21 N "P2"
-T1 0 -2.54 1.524 1.016 900 0.3048 N I 21 N "RGBOUT"
+T1 6.35 -1.27 1.016 1.016 1800 0.1016 N I 21 N "RGBOUT"
 DS -5.08 -1.27 -5.08 -1.27 0.3048 21
 DS -5.08 1.27 -5.08 -1.27 0.3048 21
 DS -5.08 -1.27 -5.08 -1.27 0.3048 21
@@ -3406,6 +3406,26 @@ Dl 10.25652 -0.5842
 Dl 10.25652 -0.5842
 $EndMODULE S3FA-SILK-REVERSED
 $TEXTPCB
+Te "A2"
+Po 121.285 111.125 0.762 0.762 0.0762 0
+De 21 1 0 Normal
+$EndTEXTPCB
+$TEXTPCB
+Te "A1"
+Po 118.745 111.125 0.762 0.762 0.0762 0
+De 21 1 0 Normal
+$EndTEXTPCB
+$TEXTPCB
+Te "+"
+Po 90.805 66.675 1.016 1.016 0.1016 0
+De 21 0 0 Normal
+$EndTEXTPCB
+$TEXTPCB
+Te "+"
+Po 59.69 95.25 1.016 1.016 0.1016 0
+De 21 0 0 Normal
+$EndTEXTPCB
+$TEXTPCB
 Te "3-channel DMX LED controller"
 nl "DMX is \"not for pyrotechnics!\""
 Po 137.795 88.9 0.762 0.762 0.1016 900
@@ -3558,22 +3578,22 @@ De 23 1 0 Normal L C
 $EndTEXTPCB
 $TEXTPCB
 Te "&"
-Po 84.455 88.265 3.81 3.81 0.2032 3600
+Po 84.455 88.265 3.81 3.81 0.2032 0
 De 23 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
 Te "electrons"
-Po 93.345 88.9 2.032 2.032 0.1016 3600
+Po 93.345 88.9 2.032 2.032 0.1016 0
 De 23 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
 Te "propane"
-Po 91.44 86.36 2.032 2.032 0.1016 3600
+Po 91.44 86.36 2.032 2.032 0.1016 0
 De 23 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
 Te "specializing in"
-Po 86.36 84.455 1.016 1.016 0.1016 3600
+Po 86.36 84.455 1.016 1.016 0.1016 0
 De 23 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
@@ -3583,7 +3603,7 @@ De 23 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
 Te "in association with"
-Po 88.265 80.01 1.016 1.016 0.1016 3600
+Po 88.265 80.01 1.016 1.016 0.1016 0
 De 23 1 0 Normal
 $EndTEXTPCB
 $DRAWSEGMENT
