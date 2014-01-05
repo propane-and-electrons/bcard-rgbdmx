@@ -19,6 +19,8 @@ As DMX is not supposed to be used with potentially dangerous devices, these boar
 * RS-485 serial interface, suitable for DMX512
 * 8P8C connectors for serial in/out
 * Termination resistor with jumper
+* It has all my contact information on it so you know how to get in touch with me
+
 
 ### Documents
 
